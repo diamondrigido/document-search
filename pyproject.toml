@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "document-search"
+version = "0.1.0"
+description = ""
+authors = ["diamondrigido <dimasik1998.98@mail.ru>"]
+
+[tool.poetry.dependencies]
+python = "3.6"
+dataclasses = "^0.8"
+docx = "^0.2.4"
+python-docx = "^0.8.10"
+PyStemmer = "^2.0.1"
+pymorphy2 = "^0.9.1"
+nltk = "^3.6.1"
+langdetect = "^1.0.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
